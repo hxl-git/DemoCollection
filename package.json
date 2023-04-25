@@ -1,0 +1,32 @@
+{
+  "name": "lyui-vue",
+  "version": "1.0.0",
+  "description": "A Vue.js project",
+  "author": "hxl <2434229264@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build:prod": "vue-cli-service build",
+    "build:stage": "vue-cli-service build --mode staging"
+  },
+  "dependencies": {
+    "element-ui": "^2.15.10",
+    "jsrsasign": "^10.8.3",
+    "vue": "^2.5.2",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "4.4.6",
+    "sass": "1.26.5",
+    "sass-loader": "8.0.2"
+  },
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
